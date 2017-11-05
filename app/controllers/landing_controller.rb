@@ -2,6 +2,7 @@ class LandingController < ApplicationController
 
   def index
     @landing = Landing.new
+    @str = "<Greeting> Hello! </Greeting>"
   end
 
   def create
